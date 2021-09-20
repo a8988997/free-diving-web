@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container mt-5">
     <form class="row justify-content-center"
     @submit.prevent="signIn">
       <div class="col-md-6">
-        <h1 class="h3 mb-3 font-weight-normal">登入頁面</h1>
+        <h1 class="h3 mb-3 font-weight-normal text-center mb-4">管理員登入</h1>
         <div class="mb-2">
           <label for="inputEmail" class="sr-only">Email address</label>
           <input
@@ -30,7 +30,7 @@
             <label> <input type="checkbox" value="remember-me" />記住我 </label>
           </div>
           <button
-            class="btn btn-lgbtn btn-lg btn-primary btn-block"
+            class="btn btn-lgbtn btn-primary btn-block mb-3"
             type="submit"
           >
             登入

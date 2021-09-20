@@ -123,6 +123,7 @@
                   id="description"
                   v-model="tempProduct.description"
                   placeholder="請輸入產品描述"
+                  style="width: 100%"
                 ></textarea>
               </div>
               <div class="form-group">
@@ -133,6 +134,7 @@
                   id="content"
                   v-model="tempProduct.content"
                   placeholder="請輸入產品說明內容"
+                  style="width: 100%"
                 ></textarea>
               </div>
               <div class="form-group">

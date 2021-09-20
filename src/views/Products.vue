@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container mb-5">
     <Loading :active="isLoading"></Loading>
     <div class="text-end mt-4">
       <button type="button" class="btn btn-primary" @click="openModal(true)">
@@ -9,25 +9,25 @@
     <table class="table mt-4">
       <thead>
         <tr>
-          <th width="120">分類</th>
+          <th width="130">分類</th>
           <th>產品名稱</th>
-          <th width="120">原價</th>
-          <th width="120">售價</th>
-          <th width="100">是否啟用</th>
-          <th width="200">編輯</th>
+          <th width="120" class="text-center">原價</th>
+          <th width="120" class="text-center">售價</th>
+          <th width="100" class="text-center">是否啟用</th>
+          <th width="200" class="text-center">編輯</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="item in products" :key="item.id">
           <td>{{ item.category }}</td>
           <td>{{ item.title }}</td>
-          <td class="text-right">{{ $filters.currency(item.origin_price) }}</td>
-          <td class="text-right">{{ $filters.currency(item.price) }}</td>
-          <td>
+          <td class="text-center">{{ $filters.currency(item.origin_price) }}</td>
+          <td class="text-center">{{ $filters.currency(item.price) }}</td>
+          <td class="text-center">
             <span class="text-success" v-if="item.is_enabled">啟用</span>
             <span class="text-muted" v-else>未啟用</span>
           </td>
-          <td>
+          <td class="text-center">
             <div class="btn-group">
               <button
                 class="btn btn-outline-primary btn-sm"
@@ -159,4 +159,4 @@ export default {
 };
 </script>
 
-<style></style>
+

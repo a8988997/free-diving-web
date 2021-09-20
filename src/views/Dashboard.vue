@@ -1,10 +1,10 @@
 <template>
   <div>
     <NavBar></NavBar>
-    
-      <ToastMessages></ToastMessages>
-      <router-view />
-   
+
+    <ToastMessages></ToastMessages>
+    <router-view />
+
     <Footer></Footer>
   </div>
 </template>
@@ -13,7 +13,7 @@
 import emitter from "../methods/emitter";
 import NavBar from "../components/Navbar.vue";
 import ToastMessages from "../components/ToastMessages.vue";
-import Footer from '../components/Footer.vue'
+import Footer from "../components/Footer.vue";
 export default {
   components: {
     NavBar,
@@ -43,5 +43,3 @@ export default {
   }
 };
 </script>
-
-

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="col-12 col-md-6">
+      <div class="d-none d-md-block col-md-6">
         <ul class="nav align-items-end">
           <li class="nav-item fs-5 travekItem">
             <a class="nav-link active" aria-current="page" role="button">墾丁</a>

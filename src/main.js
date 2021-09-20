@@ -3,6 +3,8 @@ import {Field, Form, ErrorMessage, defineRule, configure, } from 'vee-validate'
 import { required, email, min } from '@vee-validate/rules';
 import { localize, setLocale } from '@vee-validate/i18n';
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -27,7 +29,7 @@ app.config.globalProperties.$filters = {
     currency,
 };
 setLocale('zh_TW');
-
+app.use(AOS)
 app.use(VueAxios, axios)
 app.use(router)
 app.component('Loading',Loading)

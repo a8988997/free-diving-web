@@ -3,8 +3,8 @@
     <form class="row justify-content-center"
     @submit.prevent="signIn">
       <div class="col-md-6">
-        <h1 class="h3 mb-3 font-weight-normal text-center mb-4">管理員登入</h1>
-        <div class="mb-2">
+        <h1 class="h3 mb-4 font-weight-normal text-center mb-4">管理員登入</h1>
+        <div class="mb-4">
           <label for="inputEmail" class="sr-only">Email address</label>
           <input
             type="email"

@@ -7,7 +7,28 @@
     ></div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-2 bg-sidebar ">
+<!-- 下拉式sideBar -->
+        <div class="col-12 dropdown ">
+  <button class="btn btn-primary dropdown-toggle d-md-none d-block mt-4 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    商品分類
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li class="p-2 sidebar" role="button" @click="filter = ''">
+              全部商品
+            </li>
+            <li
+              class="p-2 sidebar"
+              role="button"
+              v-for="category in categoryData"
+              :key="category.id"
+              @click="filter = category"
+            >
+              {{ category }}
+            </li>
+  </ul>
+</div>
+<!-- sideBar -->
+        <div class="col-md-2 bg-sidebar d-md-block d-none">
           <ul class="nav flex-column text-center fs-7 pt-5 ">
             <li class="p-2 sidebar" role="button" @click="filter = ''">
               全部商品
@@ -23,7 +44,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-10 pt-5">
+        <!-- 商品列表 -->
+        <div class="col-12 col-md-10 pt-5">
           <div class="row">
             <div
               class="col-12 col-md-4 bg-3 text-center mb-5"

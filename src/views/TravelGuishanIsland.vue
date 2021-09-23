@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="d-none d-md-block col-md-6">
+      <div class="d-none d-md-block col-md-12 col-lg-6">
         <ul class="nav align-items-end">
           <li class="nav-item fs-5 travekItem">
             <a class="nav-link  active" aria-current="page" role="button">龜山島</a>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5 lh-lg fs-7">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-12 col-lg-8">
         <h2 class="text-center mb-4">龜山島潛水景點概況</h2>
         <ul class="listType">
            <li>
@@ -39,11 +39,11 @@
       </div>
     </div>
     <div class="row justify-content-center mb-5">
-      <div class="col-12 col-md-5 mb-3 mb-md-0">
+      <div class="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
         <div class="travelPic" style="background-image:url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1631784278310.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=U%2FyO02xs9I95%2F3O5Iuu7c6ewesneyvh0eqnkKMS52JW0q9zTdHne3BGCaeT5%2FzCUa8Dgt%2BzCWdTjpuBKLZIqOqPO03auRsMDHhMAWjBa6U7RMm9OH9Ve61azvdy2YyywFpxy7TQaCOf6r%2BaYjCCWZA7pcdfr4CWjtNxn0ymwvMvABjyGf29Na8gaKXBq9sqDWhF9ePIkmkNBjbR%2BAk3Iv0uZoKH8NwKB5pj7WWBYWz8UCPYMOdYCFJWwTSsdkysTGcRGY3vusTBNqp4jKrspTxboVcGB8zkqOhke14LP0bOpOfW6lhRCsImIhpUPp28YS7XtJgru45YtEYNDyEzzEw%3D%3D);
         "></div>
       </div>
-      <div class="col-12 col-md-5 ">
+      <div class="col-12 col-md-6 col-lg-5 ">
        <iframe
           src="https://www.google.com/maps/d/embed?mid=1g1x_7yv1Qk6dWePd-JbvOD6L0jglA_kk"
           width="480"

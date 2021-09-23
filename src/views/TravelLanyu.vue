@@ -1,31 +1,46 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="d-none d-md-block col-md-6">
+      <div class="d-none d-md-block col-md-12 col-lg-6">
         <ul class="nav align-items-end">
           <li class="nav-item fs-5 travekItem">
-            <a class="nav-link  active" aria-current="page" role="button">蘭嶼</a>
+            <a class="nav-link  active" aria-current="page" role="button"
+              >蘭嶼</a
+            >
           </li>
           <li class="nav-item travekItem">
-            <a class="nav-link " aria-current="page" href="#/travel/north">東北角</a>
+            <a class="nav-link " aria-current="page" href="#/travel/north"
+              >東北角</a
+            >
           </li>
           <li class="nav-item travekItem">
-            <a class="nav-link " aria-current="page" href="#/travel/kenting">墾丁</a>
+            <a class="nav-link " aria-current="page" href="#/travel/kenting"
+              >墾丁</a
+            >
           </li>
           <li class="nav-item travekItem">
-            <a class="nav-link " aria-current="page" href="#/travel/xiaoLiuqiu">小琉球</a>
+            <a class="nav-link " aria-current="page" href="#/travel/xiaoLiuqiu"
+              >小琉球</a
+            >
           </li>
           <li class="nav-item travekItem">
-            <a class="nav-link " aria-current="page" href="#/travel/greenIsland">綠島</a>
+            <a class="nav-link " aria-current="page" href="#/travel/greenIsland"
+              >綠島</a
+            >
           </li>
           <li class="nav-item travekItem">
-            <a class="nav-link " aria-current="page" href="#/travel/guishanIsland">龜山島</a>
+            <a
+              class="nav-link "
+              aria-current="page"
+              href="#/travel/guishanIsland"
+              >龜山島</a
+            >
           </li>
         </ul>
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5 lh-lg fs-7">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-12 col-lg-8">
         <h2 class="text-center mb-4">蘭嶼潛水景點概況</h2>
         <ul class="listType">
           <li>
@@ -45,17 +60,17 @@
       </div>
     </div>
     <div class="row justify-content-center mb-5">
-      <div class="col-12 col-md-5 mb-3 mb-md-0">
+      <div class="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
         <div
           class="travelPic"
           style="background-image:url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1631785978060.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=qz9jzfTLWwIi9LuOZRfzeszcHFVU0BN9UwSpH1ffvTP3H9YJxxby9an7jHO2Ivl%2BG1g36GNT4v3AWoTSHQfObT6OQGuik3TzCQ7DpPIQK8uaIe5C%2B3nrjELxzAYN46mCciE%2Br1lFXosT2dv%2FkevwhciaA6py5WO%2B97d6z8kGJJxAIXW4qlcOLZbMkLkLYmwO7EgsmahIhdEGTjnZ%2FLsKT4tCWEwlZBCw35fdSj5I18Ff5a2p5Qu%2BMWTHaU8O2EuDLPGJWpxnS2rku8LiWNjV%2FlG9RlgT3VU%2BAPV4xNtug69WoLTQsRIAtJ2q%2FtuecbSC53E4wOWzraUvh7T3Mv6yWA%3D%3D);
         "
         ></div>
       </div>
-      <div class="col-12 col-md-5 ">
+      <div class="col-12 col-md-6 col-lg-5">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1LPrI2CIL1s4D1Ck8k6KAE4MtxdXUxf27"
-          width="350"
+          width="480"
           height="340"
         ></iframe>
       </div>
@@ -67,10 +82,4 @@
 export default {};
 </script>
 
-<style>
-@media(max-width:414px){
-  iframe{
-    width: 336px;
-  }
-}
-</style>
+<style></style>

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="d-none d-md-block col-md-6">
+      <div class="d-none d-md-block col-md-12 col-lg-6">
         <ul class="nav  align-items-end">
           <li class="nav-item fs-5 travekItem">
             <a class="nav-link" aria-current="page" role="button">東北角</a>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5 lh-lg fs-7">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-12 col-lg-8">
         <h2 class="text-center mb-4">東北角潛水景點概況</h2>
         <ul class="listType">
           <li>範圍：北起瑞芳，南至頭城</li>
@@ -43,11 +43,11 @@
       </div>
     </div>
     <div class="row justify-content-center mb-5">
-      <div class="col-12 col-md-5 mb-3 mb-md-0">
+      <div class="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
         <div class="travelPic" style="background-image:url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1631781044941.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=bb1NZyLp7ibTiv%2FuJuJ9qrQ4A%2B6U02DAavefRgWMoUb1XzCV6KLZahqrcxjqbbZoj3obyu9Q%2BJx2Y3ET38IGc6b1s6Kd3MiXE2QFLTUkeoZhQY4KVkPYk%2FhjzkMuYRtQzTi9KDa%2FpdO4cw4%2FEe8ziWC4%2BqbVqfHZV5sv1qhSrR3uK2cCGhE0kjmZdLjcodiHmO%2FrO9Q91fdMniDfPWxYPYyms%2FFEyXjI%2BwQasvhWuuUm6tQx3XINZ%2FiAM0KwysTTu2oxNv6qky4V82M8j8W5KU4mcs1fu3U6%2BFoHsAvCaTKCqFEB%2FmUq6iwlZ542AzUoUKFDhKAWoqzJI%2F9TbxEFrQ%3D%3D);
         "></div>
       </div>
-      <div class="col-12 col-md-5 ">
+      <div class="col-12 col-md-6 col-lg-5">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1PlTswg7kbodu5GnSe0Tkeu8vODCluvIs"
           width="480"

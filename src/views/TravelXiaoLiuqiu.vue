@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="d-none d-md-block col-md-6">
+      <div class="d-none d-md-block col-md-12 col-lg-6">
         <ul class="nav align-items-end">
           <li class="nav-item fs-5 travekItem">
             <a class="nav-link" aria-current="page" role="button">墾丁</a>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5 lh-lg fs-7">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-12 col-lg-8">
         <h2 class="text-center mb-4">小琉球潛水景點概況</h2>
         <ul class="listType">
           <li>
@@ -43,14 +43,14 @@
       </div>
     </div>
     <div class="row justify-content-center mb-5">
-      <div class="col-12 col-md-5 mb-3 mb-md-0">
+      <div class="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
         <div
           class="travelPic"
           style="background-image:url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1631785160556.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OlNOuLTPgEATnfuff6uE%2BkQFlNkWe0f9Aw9dkQJwIoHOHpfXg3apl3jgsCH%2B984QgbDMa4YyGm5mRXfQDgPXXFcIIJALoVR9sS7jMVpGHuImMJR5mluG1PdGW%2B6dgk0ZyhbIm3Xgl%2BdQrM%2B3eHP1RrYVldcBPpFPmPQCRIsIbgM2giVq3BCzevW3mL80uOvw9P3wrd5QThBiYvgq0%2Bv%2FvT8Tn0rgS30PzWpInvCENiVim7MRT0EyIZdTWT5DtkSwpvq%2F2XVWJbMLgyac73Yfm3OpSwrWjGbn2tzo%2BkmZ7eEDZi9r5MgKXX0py%2FwDcoo2WezneAvo9sVyeLKJRm9Hcg%3D%3D);
         "
         ></div>
       </div>
-      <div class="col-12 col-md-5 ">
+      <div class="col-12 col-md-6 col-lg-5">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1d24gdBJFu2u5zMnA5nDK-7noIzKGBO0H"
           width="480"

@@ -52,7 +52,7 @@
       </div>
       <div class="col-12 col-md-5 ">
         <iframe
-          src="https://www.google.com/maps/d/embed?mid=1WhSBtXNCqAztBfzse0wFfg9UmmE6N96Z"
+          src="https://www.google.com/maps/d/embed?mid=1d24gdBJFu2u5zMnA5nDK-7noIzKGBO0H"
           width="480"
           height="340"
         ></iframe>

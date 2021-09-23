@@ -2,18 +2,24 @@
   <div>
     <Loading :active="isLoading"></Loading>
     <div
-      class="topImg parallax"
-      style="background-image: url(https://images.unsplash.com/photo-1594155698660-b9a8b367d86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2769&q=80)"
+      class="topImg"
+      style="background-image: url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1632157112959.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=C2hOPkbOncOBhuWaYse9MeCwekILPDiN5QDIeXeCv1Yuc9O3qRvZmwV1CD%2BfEf9%2FLb9uWpQrHDZlQLAkViIsv1tl9Qi3MOZwZ4faD%2BrGFmt6cmCU9nbZmGNNvPLr3q7nwNtWR1n2bepLwyD0EZ47wRARmzu%2B4ZIoQInGTtvnZ%2BadnY68NFvw%2Bv0PuioNe9pEN%2FCue%2FiYy6%2BvgQC6qNH1MNbBNtmNg861009pAw5M4siIPpVW3caOi%2Fn%2B4clbTesygL4gT7dI5ndetMAidTXcznkSuwWOVv9Kt%2Bkiot%2BmcgypKIgU0JeTBsDEzME19ebnlKNwbXHwdIlvQs4RHbG%2BzA%3D%3D)"
     ></div>
     <div class="container-fluid">
       <div class="row">
-<!-- 下拉式sideBar -->
+        <!-- 下拉式sideBar -->
         <div class="col-12 dropdown ">
-  <button class="btn btn-primary dropdown-toggle d-md-none d-block mt-4 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    商品分類
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li class="p-2 sidebar" role="button" @click="filter = ''">
+          <button
+            class="btn btn-primary dropdown-toggle d-md-none d-block mt-4 "
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            商品分類
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li class="p-2 sidebar" role="button" @click="filter = ''">
               全部商品
             </li>
             <li
@@ -25,9 +31,9 @@
             >
               {{ category }}
             </li>
-  </ul>
-</div>
-<!-- sideBar -->
+          </ul>
+        </div>
+        <!-- sideBar -->
         <div class="col-md-2 bg-sidebar d-md-block d-none">
           <ul class="nav flex-column text-center fs-7 pt-5 ">
             <li class="p-2 sidebar" role="button" @click="filter = ''">
@@ -90,13 +96,9 @@
 </template>
 
 <script>
-import Parallax from "vue-parallaxy";
 export default {
   data() {
     return {
-      components: {
-        Parallax
-      },
       products: [],
       product: {},
       status: {
@@ -142,7 +144,7 @@ export default {
     getProducts() {
       const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/products/all`;
       this.isLoading = true;
-      this.$http.get(url).then((res) => {
+      this.$http.get(url).then(res => {
         this.products = res.data.products;
         console.log("products:", res);
         this.isLoading = false;
@@ -173,12 +175,10 @@ export default {
 
 <style>
 .topImg {
-  min-height: 450px;
-  width: 100%;
+  height: 450px;
+  background-position: center;
   background-size: cover;
-  background-position: bottom center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .sidebar:hover {
   color: #de8f6e;

@@ -32,4 +32,9 @@ export default {
 .travekItem:hover{
  background: rgb(219, 150, 21) ;
 }
+@media(max-width:414px){
+  iframe{
+    width: 336px;
+  }
+}
 </style>

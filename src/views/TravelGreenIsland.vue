@@ -53,8 +53,7 @@
       <div class="col-12 col-md-5 ">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1qaYCKq9t0ZTKGjgV55db2-2uhKcxh1ZI"
-          width="480"
-          height="340"
+         
         ></iframe>
       </div>
     </div>
@@ -65,4 +64,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+iframe{
+    width:"480px";
+    height:"340px";
+}
+</style>

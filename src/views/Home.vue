@@ -119,7 +119,7 @@
         <div class="col-12 col-lg-6 d-flex justify-content-center">
           <div
             class="pic mb-3"
-            style="background-image:url(https://storage.googleapis.com/vue-course-api.appspot.com/weit-api/1632156922942.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=SWTlCyPIm29W2SiU8PeZF1EC36XanMZhbFJH2TAWs%2FyA%2F%2FYaF44MrvCu5Wt7k13PYwtwljiX%2BmIG44eT04fWDev9MYFGeV%2BGRtxDHfG7rhtdExP1DB%2BbBOmOVwIZAnFOX5pBl3l90jrM1lCDTOhabk3O7uxSR28C4CRHoJ1FpQKCgx277OakebearG7NSdsLX41sa93aezuebbgo9lXAaX8zV%2Bi%2BlwBqWe4amMCihpy7raOCxhjp6CC7P68%2Fve%2BpGkoo%2BA85nlIc1F7OZFHXJyvVOJ63%2BgHiJizia6C8SWabPG4b1ajobnvPJAMUZtnL7D0vDJTuJg%2FokMraE7qJsQ%3D%3D)"
+            style="background-image:url(https://images.pexels.com/photos/8059797/pexels-photo-8059797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"
             data-aos="fade-left"
             data-aos-duration="1500"
           ></div>

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
     <div class="container-fluid text-white fs-7 fontfamily">
-      <a class="navbar-brand" href="#"><span>FreeDiving</span> </a>
+      <a class="navbar-brand" href="#"><span>潛境 Diving</span> </a>
       <button
         class="navbar-toggler"
         type="button"

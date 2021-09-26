@@ -1,4 +1,4 @@
-<template>
+    <template>
   <div>
     <Navbar></Navbar>
     <div
@@ -155,9 +155,12 @@ export default {
 }
 .pic {
   height: 500px;
-  width: 380px;
+  width: 370px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.container{
+  overflow-x: hidden
 }
 </style>

@@ -161,6 +161,7 @@ export default {
   background-repeat: no-repeat;
 }
 .container{
-  overflow-x: hidden
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 </style>
